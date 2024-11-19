@@ -1,0 +1,8 @@
+﻿@model DiscountViewModel
+
+<form asp-action="SendDiscount" asp-controller="Queue" method="post">
+    <input asp-for="Message" type="text" placeholder="Enter discount" />
+    
+    <button type="submit">Create Discount</button>
+
+</form>
